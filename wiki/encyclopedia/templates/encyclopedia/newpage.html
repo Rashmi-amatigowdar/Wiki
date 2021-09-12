@@ -1,0 +1,36 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+New page
+{% endblock %}
+
+{% block body %}
+    {% if exists %}
+        <h2>Given entry already exists</h2>
+    {% else %}
+
+    <form method="POST" action="{% url 'newpage' %}">
+    {% csrf_token %}
+
+    <label for="title">Title: </label>
+
+    {% if edit %}
+        <input type="text" name="title" id="title" value={{ title }}><br><br>
+    {% else %}
+        <input type="text" name="title" id="title"><br><br>
+    {% endif %}
+
+    <label for="content">Content: </label><br>
+
+    {% if edit %}
+        <textarea name="content" id="content">{{ content }}</textarea><br><br>
+    {% else %}
+        <textarea name="content" id="content" ></textarea><br><br>
+    {% endif %}
+
+    <input type="submit" value="SAVE">
+    </form>
+
+    {% endif %}
+{% endblock %}
+

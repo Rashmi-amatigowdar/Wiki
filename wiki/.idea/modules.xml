@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/CA/Airline/.idea/Airline.iml" filepath="$PROJECT_DIR$/../Desktop/CA/Airline/.idea/Airline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/CA/JavaScript/.idea/JavaScript.iml" filepath="$PROJECT_DIR$/../Desktop/CA/JavaScript/.idea/JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/CA/React/.idea/React.iml" filepath="$PROJECT_DIR$/../Desktop/CA/React/.idea/React.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/CA/Testing/.idea/Testing.iml" filepath="$PROJECT_DIR$/../Desktop/CA/Testing/.idea/Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/CA/user_login/.idea/user_login.iml" filepath="$PROJECT_DIR$/../Desktop/CA/user_login/.idea/user_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wiki.iml" filepath="$PROJECT_DIR$/.idea/wiki.iml" />
+    </modules>
+  </component>
+</project>

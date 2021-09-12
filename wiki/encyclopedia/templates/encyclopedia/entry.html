@@ -1,0 +1,19 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+{#    <a href={% url 'newpage' name='edit' %}>EDIT</a>#}
+    <br>
+    {% if content == None %}
+        Requested page is not Found
+    {% else %}
+        <form method="POST" action={% url 'edit' title %}>
+            {% csrf_token %}
+            <input type="submit" value="EDIT" name="edit">
+        </form>
+        {{ content }}
+    {% endif %}
+{% endblock %}
